@@ -1,0 +1,235 @@
+/* Dropdown Menu */
+.dropdown-menu-grid {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Show Dropdown Menu on Hover */
+.nav-item.dropdown:hover .dropdown-menu-grid {
+  display: block;
+}
+
+/* Style Dropdown Items */
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Hover Effect for Dropdown Items */
+.dropdown-item:hover {
+  color: #007bff;
+  text-decoration: none;
+  background-color: rgba(0, 123, 255, 0.25);
+}
+
+.inforuser>p>a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* Change color to red on hover */
+.inforuser>p>a:hover {
+  color: red;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.pagination .page-link {
+  color: black;
+}
+
+.giohang {
+  font-size: 14px
+}
+
+.bill {
+  font-size: 14px
+}
+
+.icon-user .sub-menu-user {
+  display: none;
+}
+
+.icon-user:hover .sub-menu-user {
+  display: block;
+}
+
+.sub-menu-user {
+  display: none;
+  position: absolute;
+  top: 100%;
+  /* Hiển thị ngay phía dưới ảnh */
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  list-style-type: none;
+  /* Remove bullets */
+  border: 1px solid #ccc;
+  z-index: 1000;
+  width: 200px
+    /* Đảm bảo menu luôn hiển thị trên cùng */
+}
+
+.dropdown-menu-grid {
+  display: none;
+}
+
+/* Hiển thị dropdown khi có class .show */
+.dropdown-menu-grid.show {
+  display: block;
+  width: 50px;
+}
+
+.sub-menu-user a {
+
+  /* Remove underline */
+  color: black;
+  /* Set text color to black */
+}
+
+.menutreo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.menub2 {
+  font-weight: 700;
+
+}
+
+.element-menu {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.slide {
+  margin: 20px;
+}
+
+.icon {
+  margin: 30px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card>img {
+  transition: transform 0.3s ease;
+  height: 230px;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.card>img:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
+.container-product {
+  padding: 10px;
+}
+
+.product-sale {
+  background: #9FCE18CC;
+
+}
+
+.card {
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(228, 74, 74);
+}
+
+.footer {
+  background-color: rgb(12, 11, 10);
+  color: white;
+  padding: 5px;
+
+}
+
+.form {
+
+  position: relative;
+}
+
+.form .fa-search {
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span {
+
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+
+  padding-left: 10px;
+}
+
+.form-input {
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+
+  box-shadow: none;
+  border: none;
+}

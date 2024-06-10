@@ -1,0 +1,13 @@
+.inforuser>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Change color to red on hover */
+.inforuser>p>a:hover {
+    color: red;
+}

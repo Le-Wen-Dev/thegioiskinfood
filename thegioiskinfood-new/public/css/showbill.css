@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.bill-header h1 {
+    text-align: center;
+}
+
+.bill-details {
+    margin-top: 20px;
+}
+
+.customer-info,
+.product-info,
+.total {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-details {
+    flex-grow: 1;
+}
+
+.bill-footer {
+    text-align: center;
+    margin-top: 20px;
+}
