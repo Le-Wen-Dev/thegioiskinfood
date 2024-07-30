@@ -13,6 +13,7 @@ Route::get('/productssale', [ApiProductController::class, 'productsSale']);
 Route::get('/editproduct/{id}', [ApiProductController::class, 'showoneproduct']);
 Route::post('/editproduct/{id}', [ApiProductController::class, 'editproduct']);
 Route::get('/deleteproduct/{id}', [ApiProductController::class, 'deleteproduct']);
+Route::get('/loadproductbest', [ApiProductController::class, 'productbest']);
 
 //user
 Route::get('/user', [ApiUserController::class, 'index']);

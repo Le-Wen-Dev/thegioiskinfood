@@ -24,6 +24,6 @@ class CheckRole
 
         // Nếu người dùng không có vai trò là admin, chuyển hướng hoặc trả về lỗi
         // Ví dụ: Chuyển hướng về trang chủ
-        return redirect()->route('index')->with('error', 'Bạn không có quyền truy cập vào trang này');
+        return redirect()->route('admin.index')->with('error', 'Bạn không có quyền truy cập vào trang này');
     }
 }

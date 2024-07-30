@@ -1,4 +1,5 @@
 <?php
+
 namespace Database\Seeders;
 
 use App\Models\Categories;
@@ -19,7 +20,7 @@ class CategoriesSeeder extends Seeder
             ]);
         }
     }
-    
+
     private function generateRandomString(): string
     {
         // Implement your logic to generate a random string here

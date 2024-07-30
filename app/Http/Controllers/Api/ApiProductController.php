@@ -185,4 +185,21 @@ class ApiProductController extends Controller
             ], 404);
         }
     }
+    public function productbest()
+    {
+        $product = Products::orderBy('besseller', 1)->get();
+        if ($product) {
+
+            return response()->json([
+                'status' => 200,
+                'message' => 'load product bestseller success!',
+                'data' => []
+            ], 200);
+        } else {
+            return response()->json([
+                'status' => '404',
+                'message' => 'not found product!'
+            ], 404);
+        }
+    }
 }
